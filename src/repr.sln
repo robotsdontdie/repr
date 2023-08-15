@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scratch", "Scratch", "{59A65010-61A1-4176-8AF8-6F6D2A030317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeCallbacks", "NativeCallbacks\NativeCallbacks.csproj", "{139BEAB7-939A-4801-B4B9-A3229AD7A7CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PERewriter", "PERewriter\PERewriter.csproj", "{3BCEEF5C-A16D-4AC2-BB48-67CFCB561AFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{139BEAB7-939A-4801-B4B9-A3229AD7A7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139BEAB7-939A-4801-B4B9-A3229AD7A7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139BEAB7-939A-4801-B4B9-A3229AD7A7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139BEAB7-939A-4801-B4B9-A3229AD7A7CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BCEEF5C-A16D-4AC2-BB48-67CFCB561AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BCEEF5C-A16D-4AC2-BB48-67CFCB561AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BCEEF5C-A16D-4AC2-BB48-67CFCB561AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BCEEF5C-A16D-4AC2-BB48-67CFCB561AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{139BEAB7-939A-4801-B4B9-A3229AD7A7CF} = {59A65010-61A1-4176-8AF8-6F6D2A030317}
+		{3BCEEF5C-A16D-4AC2-BB48-67CFCB561AFD} = {59A65010-61A1-4176-8AF8-6F6D2A030317}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {560A17AD-9715-4CAB-A3EB-518B4D91CAE0}
+	EndGlobalSection
+EndGlobal
