@@ -102,7 +102,7 @@ namespace PERewriter
         {
             int createFileIndex = exportTable.ExportedFunctions.FindIndex(ef => ef.Name == "CreateFileW");
             var originalCreateFile = exportTable.ExportedFunctions[createFileIndex];
-            var createFileForwarder = new ExportedForwarder(originalCreateFile.Ordinal, originalCreateFile.Name, "REPR.CreateFileW");
+            var createFileForwarder = new ExportedForwarder(originalCreateFile.Ordinal, originalCreateFile.Name, "NativeCallbacks.CreateFileW");
             var createFileCallback = new ExportedAddress((short)exportTable.ExportedFunctions.Count, "OldCreateFileW", ((ExportedAddress)originalCreateFile).Address);
             exportTable.ExportedFunctions[createFileIndex] = createFileForwarder;
             exportTable.ExportedFunctions.Add(createFileCallback);
